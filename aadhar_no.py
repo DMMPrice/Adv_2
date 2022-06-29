@@ -2,7 +2,7 @@ import random
 
 
 # Function to create aadhar number where we have to enter starting value and ending value
-def aadhar_no(starting_point, ending_point):
+def ad_no(starting_point, ending_point):
     uu_no = []
     for i in range(starting_point, ending_point, 1):
         digit_1 = random.randint(1, 9)
@@ -20,12 +20,11 @@ def aadhar_no(starting_point, ending_point):
         unique_no = str(str(digit_1) + str(digit_2) + str(digit_3) + str(digit_4) + str(digit_5) + str(digit_6) + str(
             digit_7) + str(digit_8) + str(digit_9) + str(digit_10) + str(digit_11) + str(digit_12))
         uu_no.append(unique_no)
-    deduplication(uu_no)
     return uu_no
 
 
 # Function to remove the duplicate aadhar number from the aadhar list
-def deduplication(test_list):
+def dd(test_list):
     res = []
     for i in test_list:
         if i not in res:
@@ -33,9 +32,8 @@ def deduplication(test_list):
     return res
 
 
-if __name__ == '__main__':
+def aadhar_no():
     start = int(input("Enter the starting value: "))
     end = int(input("Enter the end value: "))
-    uun = aadhar_no(start, end)
-    for i in uun:
-        print(i)
+    uun = ad_no(start, end)
+    return uun

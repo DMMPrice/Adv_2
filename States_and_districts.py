@@ -41,26 +41,63 @@ district_10 = ['Ananthnag', 'Bandipur', 'Baramulla', 'Budgam', 'Doda', 'Jammu', 
                'Leh', 'Poonch',
                'Pulwama', 'Rajauri', 'Reasi', 'Shopian',
                'Srinagar', 'Udhampur']
-district_11 = [Bokaro, Chatra, Deoghar, Dhanbad, Dumka, East Singhbhum, Garhwa, Giridh, Godda, Gumla, Hazaribag,
-               Jamtara, Khunti,
-               Koderma, Latehar, Lohardaga, Pakur, Palamau, Ramgarh, Ranchi, Sahibganj, Seraikela - kharsawan, Simdega,
-               West Singhbhum]
-district_12 = [Bagalkot, Bangalore, Bangalore Rural, Belgaum, Bellary, Bidar, Bijapur(KAR), Chamrajnagar, Chickmagalur,
-               Chikkaballapur, Chitradurga,
-               Dakshina Kannada, Davangere, Dharwad, Gadag, Gulbarga, Hassan, Haveri, Kodagu, Kolar, Koppal, Mandya,
-               Mysore, Raichur, Ramanagar, Shimoga,
-               Tumkur, Udupi, Uttara Kannada, Yadgir]
-district_13 = [Alappuzha, Ernakulam, Idukki, Kannur, Kasargod, Kollam, Kottayam, Kozhikode, Malappuram, Palakkad,
-               Pathanamthitta, Thiruvananthapuram, Thrissur, Wayanad]
-district_14 = [Alirajpur, Anuppur, Ashok Nagar, Balaghat, Barwani, Betul, Bhind, Bhopal, Burhanpur, Chhatarpur,
-               Chhindwara, Damoh,
-               Datia, Dewas, Dhar, Dindori, East Nimar, Guna, Gwalior, Harda, Hoshangabad, Indore, Jabalpur,
-               Jhabua, Katni, Khandwa, Khargone, Mandla, Mandsaur, Morena, Narsinghpur, Neemuch, Panna, Raisen, Rajgarh,
-               Ratlam,
-               Rewa, Sagar, Satna, Sehore, Seoni, Shahdol, Shajapur, Sheopur, Shivpuri, Sidhi, Singrauli, Tikamgarh,
-               Ujjain, Umaria, Vidisha,
-               West Nimar]
-district_15 = [Ahmed Nagar, Akola, Amravati, Aurangabad, Beed, Bhandara, Buldhana, Chandrapur, Dhule, Gadchiroli,
-               Gondia, Hingoli,
-               Jalgaon, Jalna, Kolhapur, Latur, Mumbai, Nagpur, Nanded, Nandurbar, Nashik, Osmanabad, Parbhani, Pune,
-               Raigarh(MH), Ratnagiri, Sangli, Satara, Sindhudurg, Solapur, Thane, Wardha, Washim, Yavatmal]
+district_11 = ['Bokaro', 'Chatra', 'Deoghar', 'Dhanbad', 'Dumka', 'East Singhbhum', 'Garhwa', 'Giridh', 'Godda',
+               'Gumla', 'Hazaribag',
+               'Jamtara', 'Khunti',
+               'Koderma', 'Latehar', 'Lohardaga', 'Pakur', 'Palamau', 'Ramgarh', 'Ranchi', 'Sahibganj',
+               'Seraikela - kharsawan',
+               'Simdega',
+               'West Singhbhum']
+district_12 = ['Bagalkot', 'Bangalore', 'Bangalore Rural', 'Belgaum', 'Bellary', 'Bidar', 'Bijapur(KAR)',
+               'Chamrajnagar',
+               'Chickmagalur',
+               'Chikkaballapur', 'Chitradurga',
+               'Dakshina Kannada', 'Davangere', 'Dharwad', 'Gadag', 'Gulbarga', 'Hassan', 'Haveri', 'Kodagu', 'Kolar',
+               'Koppal', 'Mandya',
+               'Mysore', 'Raichur', 'Ramanagar', 'Shimoga',
+               'Tumkur', 'Udupi', 'Uttara Kannada', 'Yadgir']
+district_13 = ['Alappuzha', 'Ernakulam', 'Idukki', 'Kannur', 'Kasargod', ' Kollam', 'Kottayam', 'Kozhikode',
+               'Malappuram', 'Palakkad',
+               'Pathanamthitta', 'Thiruvananthapuram', 'Thrissur', 'Wayanad']
+district_14 = ['Alirajpur', 'Anuppur', 'Ashok Nagar', ' Balaghat', 'Barwani', 'Betul', 'Bhind', 'Bhopal', 'Burhanpur',
+               'Chhatarpur',
+               'Chhindwara', 'Damoh',
+               'Datia', 'Dewas', 'Dhar', 'Dindori', 'East Nimar', 'Guna', 'Gwalior', 'Harda', 'Hoshangabad', 'Indore',
+               'Jabalpur',
+               'Jhabua', 'Katni', 'Khandwa', 'Khargone', 'Mandla', 'Mandsaur', 'Morena', 'Narsinghpur', 'Neemuch',
+               'Panna', 'Raisen', 'Rajgarh',
+               'Ratlam',
+               'Rewa', 'Sagar', 'Satna', 'Sehore', 'Seoni', 'Shahdol', 'Shajapur', 'Sheopur', 'Shivpuri', 'Sidhi',
+               'Singrauli', 'Tikamgarh',
+               'Ujjain', 'Umaria', 'Vidisha',
+               'West Nimar']
+district_15 = ['Ahmed Nagar', 'Akola', 'Amravati', 'Aurangabad', 'Beed', 'Bhandara', 'Buldhana', 'Chandrapur', 'Dhule',
+               'Gadchiroli',
+               'Gondia', 'Hingoli',
+               'Jalgaon', 'Jalna', 'Kolhapur', 'Latur', 'Mumbai', 'Nagpur', 'Nanded', 'Nandurbar', 'Nashik',
+               'Osmanabad', 'Parbhani', 'Pune',
+               'Raigarh(MH)', 'Ratnagiri', 'Sangli', 'Satara', 'Sindhudurg', 'Solapur', 'Thane', 'Wardha', 'Washim',
+               'Yavatmal']
+district_16 = ['Bishnupur', 'Chandel', 'Churachandpur', 'Imphal East', 'Imphal West', 'Senapati', 'Tamenglong',
+               'Thoubal',
+               'Ukhrul']
+district_17 = ['East Garo Hills', 'East Khasi Hills', 'Jaintia Hills', 'Ri Bhoi', 'South Garo Hills', 'West Garo Hills',
+               'West Khasi Hills']
+district_18 = ['Aizawl', 'Champhai', 'Kolasib', 'Lawngtlai', 'Lunglei', 'Mammit', 'Saiha', 'Serchhip']
+district_19 = ['Dimapur', 'Kiphire', 'Kohima', 'Longleng', 'Mokokchung', 'Mon', 'Peren', 'Phek',
+               'Tuensang', 'Wokha', 'Zunhebotto']
+district_20 = ['Angul', 'Balangir', 'Baleswar', 'Bargarh', 'Bhadrak', 'Boudh', 'Cuttack', 'Debagarh', 'Dhenkanal',
+               'Gajapati', 'Ganjam',
+               'Jagatsinghapur', 'Jajapur', 'Jharsuguda', 'Kalahandi', 'Kandhamal', 'Kendraparan', 'Kendujhar',
+               'Khorda', 'Koraput',
+               'Malkangiri', 'Mayurbhanj', 'Nabarangapur', 'Nayagarh', 'Nuapada', 'Puri', 'Rayagada', 'Sambalpur',
+               'Sonapur', 'Sundergarh']
+district_21 = ['Amritsar', 'Barnala', 'Bathinda', 'Faridkot', 'Fatehgarh Sahib', 'Fazilka', 'Firozpur', 'Gurdaspur',
+               'Hoshiarpur',
+               'Jalandhar', 'Kapurthala', 'Ludhiana', 'Mansa', 'Moga', 'Mohali', 'Muktsar', 'Nawanshahr', 'Pathankot',
+               'Patiala', 'Ropar', 'Rupnagar', 'Sangrur', 'Tarn Taran']
+district_22 = ['Ajmer', 'Alwar', 'Banswara', 'Baran', 'Barmer', 'Bharatpur', 'Bhilwara', 'Bikaner', 'Bundi',
+               'Chittorgarh', 'Churu', 'Dausa',
+               'Dholpur', 'Dungarpur', 'Ganganagar', 'Hanumangarh', 'Jaipur', 'Jaisalmer', 'Jalor', 'Jhalawar',
+               'Jhujhunu', 'Jodhpur',
+               'Karauli', 'Kota', 'Nagaur', 'Pali', 'Rajsamand', 'Sawai Madhopur', 'Sikar', 'Sirohi', 'Tonk', 'Udaipur']

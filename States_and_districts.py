@@ -1,3 +1,5 @@
+import random
+
 states = ["Andhra Pradesh", "Arunachal Pradesh ", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana",
           "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh",
           "Maharashtra",
@@ -6,7 +8,7 @@ states = ["Andhra Pradesh", "Arunachal Pradesh ", "Assam", "Bihar", "Chhattisgar
           "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal", "Andaman and Nicobar Islands", "Chandigarh",
           "Dadra and Nagar Haveli", "Daman and Diu", "Lakshadweep", "National Capital Territory of Delhi",
           "Puducherry"]
-link = "https://www.delhimetrotimes.in/arunachal-pradesh/list-of-district-in-arunachal-pradesh.html"
+# link = "https://www.delhimetrotimes.in/arunachal-pradesh/list-of-district-in-arunachal-pradesh.html"
 district_1 = ["Ananthapur", "Chittoor", "Cuddapah", "East Godavari", "Guntur", "Krishna", "Kurnool", "Nellore",
               "Prakasam", "Srikakulam",
               "Visakhapatnam", "Vizianagaram", "West Godavari"]
@@ -101,3 +103,62 @@ district_22 = ['Ajmer', 'Alwar', 'Banswara', 'Baran', 'Barmer', 'Bharatpur', 'Bh
                'Dholpur', 'Dungarpur', 'Ganganagar', 'Hanumangarh', 'Jaipur', 'Jaisalmer', 'Jalor', 'Jhalawar',
                'Jhujhunu', 'Jodhpur',
                'Karauli', 'Kota', 'Nagaur', 'Pali', 'Rajsamand', 'Sawai Madhopur', 'Sikar', 'Sirohi', 'Tonk', 'Udaipur']
+district_23 = ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"]
+district_24 = ["Ariyalur", "Chengalpattu", "Chennai", "Coimbatore", "Cuddalore", "Dharmapuri", "Dindigul", "Erode",
+               "Kallakurichi", "Kanchipuram", "Kanyakumari", "Karur", "Krishnagiri", "Madurai", "Nagapattinam",
+               "Namakkal",
+               "Nilgiris", "Perambalur", "Pudukkottai", "Ramanathapuram", "Ranipet", "Salem", "Sivaganga", "Tenkasi",
+               "Thanjavur", "Theni", "Thoothukudi (Tuticorin)", "Tiruchirappalli", "Tirunelveli", "Tirupathur",
+               "Tiruppur",
+               "Tiruvallur", "Tiruvannamalai", "Tiruvarur", "Vellore", "Viluppuram", "Virudhunagar"]
+district_25 = ["Adilabad", "Bhadradri Kothagudem", "Hyderabad", "Jagtial", "Jangaon", "Jayashankar Bhoopalpally",
+               "Jogulamba Gadwal", "Kamareddy", "Karimnagar", "Khammam", "Komaram Bheem Asifabad", "Mahabubabad",
+               "Mahabubnagar", "Mancherial", "Medak", "Medchal", "Nagarkurnool", "Nalgonda", "Nirmal", "Nizamabad",
+               "Peddapalli", "Rajanna Sircilla", "Rangareddy", "Sangareddy", "Siddipet", "Suryapet", "Vikarabad",
+               "Wanaparthy", "Warangal (Rural)", "Warangal (Urban)", "Yadadri Bhuvanagiri"]
+district_26 = ["Dhalai", "Gomati", "Khowai", "North Tripura", "Sepahijala", "South Tripura", "Unakoti", "West Tripura"]
+district_27 = ["Agra", "Aligarh", "Allahabad", "Ambedkar Nagar", "Amethi (Chatrapati Sahuji Mahraj Nagar)",
+               "Amroha (J.P. Nagar)", "Auraiya", "Azamgarh", "Baghpat", "Bahraich", "Ballia", "Balrampur",
+               "Banda", "Barabanki", "Bareilly", "Basti", "Bhadohi", "Bijnor", "Budaun", "Bulandshahr",
+               "Chandauli", "Chitrakoot", "Deoria", "Etah", "Etawah", "Faizabad", "Farrukhabad", "Fatehpur",
+               "Firozabad", "Gautam Buddha Nagar", "Ghaziabad", "Ghazipur", "Gonda", "Gorakhpur", "Hamirpur",
+               "Hapur (Panchsheel Nagar)", "Hardoi", "Hathras", "Jalaun", "Jaunpur", "Jhansi", "Kannauj",
+               "Kanpur Dehat", "Kanpur Nagar", "Kanshiram Nagar (Kasganj) ", "Kaushambi", "Kushinagar (Padrauna)",
+               "Lakhimpur - Kheri", "Lalitpur", "Lucknow", "Maharajganj", "Mahoba", "Mainpuri", "Mathura", "Mau",
+               "Meerut", "Mirzapur", "Moradabad", "Muzaffarnagar", "Pilibhit", "Pratapgarh", "RaeBareli", "Rampur",
+               "Saharanpur", "Sambhal (Bhim Nagar)", "Sant Kabir Nagar", "Shahjahanpur", "Shamali (Prabuddh Nagar)",
+               "Shravasti", "Siddharth Nagar", "Sitapur", "Sonbhadra", "Sultanpur", "Unnao", "Varanasi"]
+district_28 = ["Almora", "Bageshwar", "Chamoli", "Champawat", "Dehradun", "Haridwar", "Nainital", "Pauri Garhwal",
+               "Pithoragarh", "Rudraprayag", "Tehri Garhwal", "Udham Singh Nagar", "Uttarkashi"]
+district_29 = ["Alipurduar", "Bankura", "Birbhum", "Cooch Behar", "Dakshin Dinajpur (South Dinajpur)", "Darjeeling",
+               "Hooghly", "Howrah", "Jalpaiguri", "Jhargram", "Kalimpong", "Kolkata", "Malda", "Murshidabad", "Nadia",
+               "North 24 Parganas", "Paschim Medinipur (West Medinipur)", "Paschim (West) Burdwan (Bardhaman)",
+               "Purba Burdwan (Bardhaman)", "Purba Medinipur (East Medinipur)", "Purulia", "South 24 Parganas",
+               "Uttar Dinajpur (North Dinajpur)"]
+district_30 = ["Nicobar", "North and Middle Andaman", "South Andaman"]
+district_31 = ["Chandigarh"]
+district_32 = ["Dadra & Nagar Haveli"]
+district_33 = ["Daman and Diu"]
+district_34 = ["Lakshadweep"]
+district_35 = ["Central Delhi", "East Delhi", "New Delhi", "North Delhi", "North East Delhi", "North West Delhi",
+               "Shahdara", "South Delhi", "South East Delhi", "South West Delhi", "West Delhi"]
+district_36 = ["Karaikal", "Mahe", "Puducherry", "Yanam"]
+district = [district_1, district_2, district_3, district_4, district_5, district_6, district_7, district_8, district_9,
+            district_10, district_11, district_12, district_13, district_14, district_15, district_16, district_17,
+            district_18, district_19, district_20, district_21, district_22, district_23, district_24, district_25,
+            district_26, district_27, district_28, district_29, district_30, district_31, district_32, district_33,
+            district_34, district_35, district_36]
+
+
+def random_states():
+    global states
+    a = random.randint(0, len(states) - 1)
+    return states[a]
+
+
+def random_districts(states_name):
+    global states, district
+    a = states.index(states_name)
+    district_name = district[a]
+    b = random.randint(0, len(district_name) - 1)
+    return district_name[b]

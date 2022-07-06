@@ -28,6 +28,3 @@ def text_decoding(encode_text):
     sample_string = sample_string_bytes.decode("ascii")
     return sample_string
 
-
-a = image_encoding("1.jpg.jpg")
-image_decoding(a)

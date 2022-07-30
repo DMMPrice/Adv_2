@@ -19,8 +19,9 @@ def ad_no(starting_point, ending_point):
         digit_12 = random.randint(0, 9)
         unique_no = str(str(digit_1) + str(digit_2) + str(digit_3) + str(digit_4) + str(digit_5) + str(digit_6) + str(
             digit_7) + str(digit_8) + str(digit_9) + str(digit_10) + str(digit_11) + str(digit_12))
-        uu_no.append(unique_no)
-    return uu_no
+        uu_no.append(int(unique_no))
+    id = dd(uu_no)
+    return id
 
 
 # Function to remove the duplicate aadhar number from the aadhar list
@@ -30,10 +31,3 @@ def dd(test_list):
         if i not in res:
             res.append(i)
     return res
-
-
-def aadhar_no():
-    start = int(input("Enter the starting value: "))
-    end = int(input("Enter the end value: "))
-    uun = ad_no(start, end)
-    return uun

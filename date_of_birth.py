@@ -17,16 +17,16 @@ def is_leap(year_of_birth):
 
 def leap_year_date(month_no):
     if month_no % 2 == 0:
-        return random.randint(1, 31)
+        return random.randint(1, 28)
     if month_no == 2:
-        return random.randint(1, 29)
+        return random.randint(1, 28)
     else:
         return random.randint(1, 30)
 
 
 def not_leap_year_date(month_no):
     if month_no % 2 == 0:
-        return random.randint(1, 31)
+        return random.randint(1, 28)
     if month_no == 2:
         return random.randint(1, 28)
     else:
@@ -44,7 +44,7 @@ def date_of_birth():
             month = '0' + str(month)
         if date < 10:
             date = '0' + str(date)
-        dob = str(year_of_birth_check[1]) + '-' + str(month) + '-' + str(date)
+        dob = str(date) + '-' + str(month) + '-' + str(year_of_birth_check[1])
         return dob
     if year_of_birth_check[0] == 'not leap':
         date = leap_year_date(month)
@@ -52,6 +52,5 @@ def date_of_birth():
             month = '0' + str(month)
         if date < 10:
             date = '0' + str(date)
-        dob = str(year_of_birth_check[1]) + '-' + str(month) + '-' + str(date)
+        dob = str(date) + '-' + str(month) + '-' + str(year_of_birth_check[1])
         return dob
-
